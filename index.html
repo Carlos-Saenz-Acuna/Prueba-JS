@@ -3,16 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document </title>
+    <title>Conversor de Monedas </title>
     <link rel="stylesheet" href="./assets/css/style.css"
 </head>
 <body>
-
-    
-
-
-
-
+ <div class="container">
+        <h1>Conversor de Monedas</h1>
+        <div class="form-section">
+            <input type="number" id="cantidadInput" placeholder="Ingresa el monto en Pesos Chileno"  >
+            <select id="monedaSelect">
+                <option value="usd">Dólar (USD)</option>
+                <option value="eur">Euro (EUR)</option>
+            </select>
+            <button id="botonConvertir">Convertir</button>
+        </div>
+        <div id="resultado"></div>
+    </div>
 
     <script src="./assets/js/main.js">
 
